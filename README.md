@@ -1,4 +1,4 @@
-# DBMS Social Networks — DA3
+# DBMS Social Networks
 
 A full-stack, graph-powered social network application developed for the **DBMS DA3** academic curriculum. The platform connects a modern, responsive React + Vite + TypeScript frontend (Instagram-inspired design system) to an Express + TypeScript backend, backed by a live **Neo4j Aura** cloud property graph database.
 
