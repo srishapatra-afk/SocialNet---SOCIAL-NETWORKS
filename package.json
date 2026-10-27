@@ -1,0 +1,19 @@
+{
+  "name": "da3-social-networks",
+  "version": "1.0.0",
+  "description": "DBMS DA3 Social Networks Full-Stack Application powered by Neo4j Aura",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
+    "build": "npm run build --workspaces",
+    "check": "npm run check --workspace=backend && npm run check --workspace=frontend",
+    "test": "npm run test --workspaces"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
